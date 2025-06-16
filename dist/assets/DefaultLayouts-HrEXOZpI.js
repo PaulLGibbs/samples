@@ -1,0 +1,1 @@
+import{fR as e,fH as O}from"./index-Bis5Kf-g.js";const I=e().vec3f(O.POSITION),c=e().vec3f(O.POSITION).vec2f(O.UV0),v=e().vec3f(O.POSITION).vec4u8(O.COLOR),N=e().vec3f(O.POSITION).vec2f(O.UV0).vec4u8(O.OBJECTANDLAYERIDCOLOR);export{N as I,c as f,v as r,I as t};

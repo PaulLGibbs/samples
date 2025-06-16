@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map Components Vite Sample</title>
+    <link rel="icon" href="data:;base64,=" />
+    <style>
+      #viewDiv {
+        display: block;
+        height: 100vh;
+        position: relative;
+      }
+      arcgis-map,
+      arcgis-scene {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+
+  <script type="module" crossorigin src="/samples/assets/index-Bis5Kf-g.js"></script>
+  <link rel="stylesheet" crossorigin href="/samples/assets/index-CknZVD3U.css">
+</head>
+  <body>
+    <div id="viewDiv">
+      <arcgis-map id="map" item-id="7ee3c8a93f254753a83ac0195757f137">
+        <arcgis-search position="top-right"></arcgis-search>
+        <arcgis-legend position="bottom-left"></arcgis-legend>
+        <arcgis-expand close-on-esc position="bottom-right" placement="left-end" mode="floating">
+          <arcgis-placement>
+            <extent-expand></extent-expand>
+          </arcgis-placement>
+        </arcgis-expand>
+
+            <layer-manager id="layer-manager-2d"></layer-manager>
+
+        <arcgis-expand close-on-esc position="top-right" placement="left-end" mode="floating">
+          <arcgis-placement>
+            <print-screenshot-tool></print-screenshot-tool>
+          </arcgis-placement>
+        </arcgis-expand>
+        <arcgis-expand close-on-esc position="bottom-left" placement="left-end" mode="floating">
+          <arcgis-placement>
+            <draw-extent></draw-extent>
+          </arcgis-placement>
+        </arcgis-expand>
+
+      </arcgis-map>
+      <arcgis-scene id="scene" item-id="c8cf26d7acab4e45afcd5e20080983c1" style="display:none;">
+        <arcgis-search position="top-right"></arcgis-search>
+        <arcgis-legend position="bottom-left"></arcgis-legend>
+        <arcgis-expand close-on-esc position="bottom-right" placement="left-end" mode="floating">
+          <arcgis-placement>
+            <extent-expand></extent-expand>
+          </arcgis-placement>
+        </arcgis-expand>
+
+            <layer-manager id="layer-manager-3d"></layer-manager>
+
+        <arcgis-placement position="top-left">
+          <!-- Toggle button removed here -->
+        </arcgis-placement>
+        <arcgis-expand close-on-esc position="bottom-left" placement="left-end" mode="floating">
+          <arcgis-placement>
+            <draw-extent></draw-extent>
+          </arcgis-placement>
+        </arcgis-expand>
+        <arcgis-expand close-on-esc position="top-right" placement="left-end" mode="floating">
+          <arcgis-placement>
+            <print-screenshot-tool></print-screenshot-tool>
+          </arcgis-placement>
+        </arcgis-expand>
+      </arcgis-scene>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+import{aT as d,aW as b,bb as f,bc as p,bd as i,be as m}from"./index-Bis5Kf-g.js";function T(n,r,o,e){o.projectToRenderScreen(n,a),o.projectToRenderScreen(r,c),i(e,c,a),m(e,e)}function $(n,r,o,e,t=d()){const s=b(u,n);return s[2]=f(e,s,r,o)||0,e.renderCoordsHelper.toRenderCoords(s,r,t),t}const u=d(),a=p(),c=p();export{$ as i,T as n};

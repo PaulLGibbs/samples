@@ -1,0 +1,1 @@
+import{bt as r,bu as c}from"./index-Bis5Kf-g.js";import{S as f,p as i}from"./query-CNb19piq.js";async function u(a,t,o){const n=r(a),{data:s}=await f(n,c.from(t),o);return s.count}async function b(a,t,o){const n=r(a),{data:s}=await i(n,c.from(t),o);return s.objectIds??[]}export{b as a,u as s};
